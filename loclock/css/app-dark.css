@@ -1,0 +1,106 @@
+.main[data-theme='dark'] .list {
+  background-color: black;
+  border-color: gray;
+  color: gray;
+}
+
+.main[data-theme='dark'] .list-item.selected {
+  color: white;
+}
+
+.main[data-theme='dark'] .menu-button-content {
+  stroke: white;
+}
+
+.main[data-theme='dark'] .menu-button.active > .menu-button-content,
+.main[data-theme='dark'].list-visible .menu-button-content {
+  stroke: gray;
+}
+
+.main[data-theme='dark'] .settings-button-content {
+  fill: white;
+}
+
+.main[data-theme='dark'] .settings-button.active > .settings-button-content,
+.main[data-theme='dark'].preferences-visible .settings-button-content {
+  fill: gray;
+}
+
+.main[data-theme='dark'] .clock {
+  background-color: black;
+}
+
+.main[data-theme='dark'] .clock-bezel {
+  stroke: white;
+}
+
+.main[data-theme='dark'] .clock-dial-text {
+  fill: white;
+}
+
+.main[data-theme='dark'] .clock-center-point {
+  fill: white;
+}
+
+.main[data-theme='dark'] .clock-button {
+  fill: lightgray;
+}
+
+.main[data-theme='dark'] .clock-button.active {
+  fill: gray;
+}
+
+.main[data-theme='dark'] .clock-point-circle {
+  fill: black;
+  stroke: white;
+}
+
+.main[data-theme='dark'] .clock-point-text {
+  fill: white;
+}
+
+.main[data-theme='dark'] .clock.rotating .clock-bezel {
+  stroke: lightgray;
+}
+
+.main[data-theme='dark'] .clock.rotating .clock-point-circle {
+  stroke: lightgray;
+}
+
+.main[data-theme='dark'] .preferences {
+  background-color: black;
+  border-color: gray;
+  color: white;
+}
+
+.main[data-theme='dark'] .preferences-hide-button.active {
+  color: gray;
+}
+
+.main[data-theme='dark'] .preferences-line {
+  border-color: gray;
+}
+
+.main[data-theme='dark'] .preferences-input-license {
+  color: lightgray;
+}
+
+.main[data-theme='dark'] .preferences-input-license > a {
+  color: lightgray;
+}
+
+.main[data-theme='dark'] .preferences-table-head {
+  background-color: gray;
+}
+
+.main[data-theme='dark'] .preferences-table-body {
+  border-color: gray;
+}
+
+.main[data-theme='dark'] .preferences-table-body > .preferences-table-row {
+  border-color: gray;
+}
+
+.main[data-theme='dark'] .preferences-table-delete-button.active {
+  color: gray;
+}
